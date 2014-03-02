@@ -4,7 +4,6 @@ require 'monome_serial'
 
 
 #require rspec
-require 'spec'
-require 'spec/autorun'
+require 'rspec'
 
 MonomeSerial::SerialCommunicator.suppress_warnings = true
